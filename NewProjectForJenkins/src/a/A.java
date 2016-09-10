@@ -20,5 +20,10 @@ public class A {
 			System.setProperty("webdriver.chrome.driver",rootPath+"/TestData/chromedriver.exe");
 			WebDriver driver = new ChromeDriver();		
 	}
+	
+	@Test
+	public void bTest(){
+		
+	}
 
 }
